@@ -5,7 +5,7 @@ const projects = {
         title: "Real Estate Analytics Dashboard",
         intro: "An interactive dashboard for exploring property sales, revenue, and performance across property types and locations.",
         tags: ["Power BI", "DAX", "Data Cleaning", "Data Modeling", "Visualization"],
-        cover: "images/dashboard-real-estate.jpg",
+        cover: "dashboard-real-estate.jpg",
         coverType: "image",
         overview: "This project presents real estate information through an interactive dashboard. It helps users explore sales performance, revenue, property categories, and trends over time.",
         objectives: [
@@ -16,8 +16,8 @@ const projects = {
         ],
         tools: ["Microsoft Power BI", "DAX", "Power Query", "Data Cleaning", "Data Modeling"],
         gallery: [
-            { src: "images/landing-page-real-estate.jpg", caption: "Real Estate Landing Page" },
-            { src: "images/dashboard-real-estate.jpg", caption: "Real Estate Dashboard" }
+            { src: "landing-page-real-estate.jpg", caption: "Real Estate Landing Page" },
+            { src: "dashboard-real-estate.jpg", caption: "Real Estate Dashboard" }
         ]
     },
 
@@ -26,7 +26,7 @@ const projects = {
         title: "Hospital Performance Dashboard",
         intro: "A healthcare analytics dashboard designed to present hospital performance and operational information through visual reports.",
         tags: ["Power BI", "DAX", "Healthcare", "Data Visualization"],
-        cover: "images/dashboard-hospital.jpg",
+        cover: "dashboard-hospital.jpg",
         coverType: "image",
         overview: "This project organizes healthcare and hospital performance information into a dashboard. The available data can be explored using relevant time, department, and status filters.",
         objectives: [
@@ -37,8 +37,8 @@ const projects = {
         ],
         tools: ["Microsoft Power BI", "DAX", "Power Query", "Data Cleaning", "Data Modeling"],
         gallery: [
-            { src: "images/landing-page-hospital.jpg", caption: "Hospital Landing Page" },
-            { src: "images/dashboard-hospital.jpg", caption: "Hospital Dashboard" }
+            { src: "landing-page-hospital.jpg", caption: "Hospital Landing Page" },
+            { src: "dashboard-hospital.jpg", caption: "Hospital Dashboard" }
         ]
     },
 
@@ -47,7 +47,7 @@ const projects = {
         title: "Spam Detection System",
         intro: "A Python application that classifies text messages as spam or not spam using text processing and a machine learning model.",
         tags: ["Python", "Machine Learning", "TF-IDF", "Naive Bayes"],
-        cover: "videos/spam.mp4",
+        cover: "spam.mp4",
         coverType: "video",
         overview: "The Spam Detection System analyzes a text message and predicts whether it is spam or not spam. The project uses TF-IDF to represent text numerically and a Multinomial Naive Bayes classifier to make predictions. The application provides a graphical interface for testing messages.",
         objectives: [
@@ -74,7 +74,7 @@ const projects = {
             "Allow users to add or remove movies from favorites.",
             "Organize application state for reuse across components."
         ],
-        cover: "videos/movieverse.mp4",
+        cover: "movieverse.mp4",
          coverType: "video",
         tools: ["Vue.js", "Vuex", "JavaScript", "HTML", "CSS"],
         gallery: []
@@ -85,7 +85,7 @@ const projects = {
         title: "A* Maze Pathfinding",
         intro: "A maze-solving visualization using the A* search algorithm to find a path from the starting point to the goal while navigating around obstacles.",
         tags: ["Python", "Pygame", "A* Algorithm", "Pathfinding"],
-        cover: "videos/Algorithm.mp4",
+        cover: "Algorithm.mp4",
         coverType: "video",
         overview: "This project visualizes pathfinding in a grid-based maze using the A* search algorithm. The algorithm uses a heuristic to help find a route from the start to the goal while avoiding blocked cells.",
         objectives: [
