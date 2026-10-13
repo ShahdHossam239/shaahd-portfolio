@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Project details - Shahd Hossam Portfolio">
+    <title>Project Details | Shahd Hossam</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="project-details.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<header class="header">
+    <a href="index.html#home" class="logo">Shahd<span>.</span></a>
+
+    <button class="menu-toggle" id="menuToggle"
+            aria-label="Toggle navigation"
+            aria-expanded="false">☰</button>
+
+    <nav class="nav" id="navMenu">
+        <a href="index.html#home" class="nav-link">Home</a>
+        <a href="index.html#about" class="nav-link">About</a>
+        <a href="index.html#skills" class="nav-link">Skills</a>
+        <a href="index.html#projects" class="nav-link active">Projects</a>
+        <a href="index.html#contact" class="nav-link">Contact</a>
+    </nav>
+</header>
+
+<main>
+    <section class="detail-hero">
+        <a href="index.html#projects" class="back-link">← Back to Projects</a>
+
+        <p class="eyebrow" id="detailCategory">PROJECT DETAILS</p>
+        <h1 id="detailTitle">Project Title</h1>
+        <p class="detail-intro" id="detailIntro">Project description</p>
+
+        <div class="detail-tags" id="detailTags"></div>
+    </section>
+
+    <section class="detail-content">
+        <div class="detail-cover-wrap" id="detailCoverWrap">
+            <div id="detailCoverMedia" class="detail-cover-media"></div>
+        </div>
+
+        <div class="detail-layout">
+            <article class="detail-main">
+                <section class="detail-block">
+                    <p class="eyebrow">PROJECT OVERVIEW</p>
+                    <h2>About the Project</h2>
+                    <p id="detailOverview"></p>
+                </section>
+
+                <section class="detail-block">
+                    <p class="eyebrow">KEY OBJECTIVES</p>
+                    <h2>Project Objectives</h2>
+                    <ul id="detailObjectives" class="detail-list"></ul>
+                </section>
+
+                <section class="detail-block" id="gallerySection">
+                    <p class="eyebrow">VISUAL PREVIEW</p>
+                    <h2>Project Gallery</h2>
+                    <p class="gallery-note" id="galleryNote">
+                        Select an image to view it in a larger window.
+                    </p>
+                    <div class="detail-gallery" id="detailGallery"></div>
+                </section>
+            </article>
+
+            <aside class="detail-sidebar">
+                <div class="sidebar-card">
+                    <p class="eyebrow">PROJECT INFORMATION</p>
+                    <h3>Tools &amp; Technologies</h3>
+                    <ul id="detailTools" class="tools-list"></ul>
+                </div>
+
+                <div class="sidebar-card">
+                    <p class="eyebrow">HAVE A PROJECT?</p>
+                    <h3>Let's Work Together</h3>
+                    <p>Interested in data analysis, software development, or machine learning?</p>
+                    <a class="btn btn-primary sidebar-button" href="index.html#contact">
+                        Contact Me ↗
+                    </a>
+                </div>
+            </aside>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <a href="index.html#home" class="logo">Shahd<span>.</span></a>
+    <p>Designed and built by Shahd Hossam.</p>
+    <p>© <span id="currentYear"></span> All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+<script src="project-details.js"></script>
+</body>
+</html>
